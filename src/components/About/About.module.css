@@ -1,0 +1,35 @@
+.aboutWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+    text-align: justify;
+    scroll-margin-top: 100px;
+}
+
+.informationWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    gap: 10px;
+}
+
+.aboutWrapper img {
+    width: 120px;
+    height: 160px;
+}
+.aboutWrapper h1 {
+    margin-bottom: 5px;
+}
+
+.aboutWrapper button {
+    cursor: pointer;
+    border-radius: 40px;
+    aspect-ratio: 1/1;
+    padding: 0;
+
+}
+.gitImage {
+    max-width: 36px !important;
+    height: 36px !important;
+}

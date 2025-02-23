@@ -1,0 +1,52 @@
+.Header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    min-width: 100%;
+    padding: 0;
+    height: 100px;
+    background-color: #888888;
+    align-content: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    background: #F5F5F5;
+    border-bottom: solid 0 #888888;
+    box-shadow: 0px 0px 10px #888888;
+}
+
+.containerWrapper {
+    margin: 0 20%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    align-content: center;
+}
+
+.Header ul {
+    width: 350px;
+    padding: 0 10px 0 10px;
+    margin: 0;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+

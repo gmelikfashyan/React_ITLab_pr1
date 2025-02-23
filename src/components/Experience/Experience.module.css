@@ -1,0 +1,24 @@
+.experienceElem {
+    display: flex;
+    text-align: left;
+    gap: 20px;;
+}
+.achievementsList {
+    padding: 0;
+    margin: 0;
+}
+.achievementsList > li {
+    margin-bottom: 10px;
+}
+.experienceWrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+    gap: 40px;
+    min-height: 20em;
+    justify-items: center
+}
+
+.experienceSection {
+    margin-top: 50px;
+    scroll-margin-top: 100px;
+}

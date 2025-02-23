@@ -1,0 +1,15 @@
+.skillWrapper {
+    padding: 0 10px;
+    display: flex;
+    height: 120px;
+    align-items: center;
+    width: 20em;
+    background: #1a1a1a;
+    color: white;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+img {
+    width: 48px;
+    height: 48px;
+}

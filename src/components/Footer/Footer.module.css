@@ -1,0 +1,12 @@
+.Footer
+{
+    min-width: 100%;
+    padding: 0;
+    height: 200px;
+    align-content: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    background: #F5F5F5;
+    border-bottom: solid 0 #888888;
+}
+

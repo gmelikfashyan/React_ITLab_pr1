@@ -1,0 +1,14 @@
+.skillsSection {
+    display: flex;
+    flex-direction: column;
+    /*margin-top: 100px;*/
+    scroll-margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.skillsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+    gap: 1em;
+    justify-items: center;
+}

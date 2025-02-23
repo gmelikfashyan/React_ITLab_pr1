@@ -1,0 +1,39 @@
+.educationElem {
+    display: grid;
+    grid-template-columns: 1fr 15px 1fr;
+    height: 150px;
+}
+.educationPoint {
+    height: 13px;
+    width: 13px;
+    background-color: #242424;
+    border-radius: 50%;
+}
+.educationLine {
+    height: 100%;
+    background-color: #242424;
+    width: 2px;
+}
+
+.educationInfo {
+    text-align: end;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+
+.educationInfo p, h3 {
+    margin: 0;
+    max-width: 240px;
+}
+.routeLine {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.educationSection {
+    background-color: #F5F5F5;
+    scroll-margin-top: 100px;
+}
